@@ -1,6 +1,7 @@
 body {
   font: 400 15px/1.8 Lato, sans-serif;
   color: rgb(13, 11, 11);
+  background-image: url(../Images/background.png);
 }
 
 html {
@@ -148,7 +149,8 @@ h3, h4 {
   color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
-  color: #fff !important;
+  color: rgb(121, 68, 68) !important;
+  background-color: #fff;
 }
 .navbar-nav li.active a {
   color: #fff !important;
@@ -177,7 +179,7 @@ h3, h4 {
   width: 80%;
   height: 100%;
   background-color: #212329;
-  color: rgb(104, 79, 79);
+  color: rgb(220, 99, 90);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
