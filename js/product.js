@@ -1,5 +1,5 @@
 var data = [
-    { "id": "p01", "name": "Mitchell  O120CESB Auditorium", "name1": "2$", "name2": "sale 14%", "pic": "../Images/Acoustic/acoutic1.png", "price": 43, "description": "", "guitar": "acoustic" },
+    { "id": "p01", "name": "Mitchell  O120CESB Auditorium", "name1": "2$", "name2": "sale 14%", "pic": "Images//Acoustic//acoutic1.png", "price": 43, "description": "", "guitar": "acoustic" },
 
     { "id": "p02", "name": "Rogue RA-090 Dreadnought", "name1": "", "name2": "", "pic": "../Images/Acoustic/RogueRA-090DreadnoughtAcousticGuitarSunburst.png", "price": 2.69, "description": "", "guitar": "acoustic" },
 
