@@ -13,7 +13,6 @@
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
  <link rel="shortcut icon" type="image/png" href="Images/logo.png"/>
  <link rel="stylesheet" href="css/form.css">
- <link rel="stylesheet" href="css/index.css">
  <link rel="stylesheet" href="css/home1.css">
   <title>BAMBOO GUITAR STORES</title>
 </head>
@@ -36,51 +35,46 @@
           <li><a href="#band">INTRODUCE</a></li>
           <li><a href="#tour">NEWS</a></li>
           <li><a href="#contact">CONTACT US</a></li>
-          <li><a href="#">Sign in</a></li>
-          <li><a href="register.html">Sign out</a></li>
+          <li><a href="login.html">Sign in</a></li>
+          <li><a href="#">Sign out</a></li>
         </ul>
-      </div>
+      </div> 
 
     </div>
   </nav>
-  <section>
-    <div class="noi-dung">
-        <div class="form">
-            <h2>Sign in </h2>
-            <form action="">
-                <div class="input-form">
-                    <span> User name</span>
-                    <input type="text" name="">
-                </div>
-                <div class="input-form">
-                    <span> Password</span>
-                    <input type="password" name="">
-                </div>
-                <div class="nho-dang-nhap">
-                    <label><input type="checkbox" name=""> Remember Sign In</label>
-                </div>
-                <div class="input-form">
-                    <input type="submit" value="Login">
-                </div>
-                <div class="input-form">
-                    <p>Do not have an account? <a href="Register.html">Register</a></p>
-                </div>
-            </form>
-            <h3>Login With Social Network</h3>
-            <ul class="icon-dang-nhap">
-                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                <li><i class="fa fa-google" aria-hidden="true"></i></li>
-                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-            </ul>
+        <section>
+        <div class="noi-dung">
+            <div class="form">
+                <h2>Sign Up </h2>
+                <form action="">
+                    <div class="input-form">
+                        <span>Email or phone number</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="input-form">
+                        <span>User name</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="input-form">
+                        <span>Password</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="input-form">
+                        <span>Enter the password</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" value="Register"><a href="login.html"></a>
+                    </div>
+                </form>
+                <h3>Login With Social Network</h3>
+                <ul class="icon-dang-nhap">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</section>
-<script>
-    function getCartAmount() {
-        let currentCart = JSON.parse(localStorage.getItem('cart')) ?? [];
-        document.getElementById('cart').innerText = currentCart.length;
-    }
-    getCartAmount();
-</script>
+    </section>
 </body>
 </html>
