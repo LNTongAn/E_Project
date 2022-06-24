@@ -1,11 +1,14 @@
 body {
-  font: 400 15px/1.8 Lato, sans-serif;
   color: rgb(13, 11, 11);
   background-image: url(../Images/background.png);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.product{
+  text-align: center;
 }
 
 .container-fluid{
@@ -16,35 +19,23 @@ html {
 .divImage {
   text-align: center;
   margin: 40px;
-  padding: auto;
-  padding-left: 99px;
 }
 
 .detailImage {
   text-transform: none;
   width: 300px;
-  height: 450px;
+  height: 460px;
 }
 
-.driedFruit {
-  width: 290px;
-  height: 290px;
+.guitar {
+  width: 150px;
+  height: 200px;
   padding: 10px;
   border: solid 1px rgb(149, 92, 92);
 }
 
-.dropdown-item a{
-  text-decoration: initial;
-}
 #nav{
   background-color: rgb(0, 0, 0);
-}
-
-h3, h4 {
-  margin: 10px 0 30px 0;
-  letter-spacing: 10px;      
-  font-size: 20px;
-  color: #111;
 }
 
 .container {
@@ -68,7 +59,6 @@ h3, h4 {
   -webkit-filter: grayscale(90%);
   filter: grayscale(90%); /* make all photos black and white */ 
   width: 100%; /* Set width to 100% */
-  margin: auto;
 }
 .carousel-caption h3 {
   color: #fff !important;
@@ -133,12 +123,7 @@ h3, h4 {
   background-color: #fff;
   color: #000;
 }
-.modal-header, h4, .close {
-  background-color: #333;
-  color: #fff !important;
-  text-align: center;
-  font-size: 30px;
-}
+
 .modal-header, .modal-body {
   padding: 40px 50px;
 }
@@ -264,4 +249,4 @@ h3, h4 {
 }
 textarea {
   resize: none;
-}
+}/*comment*/
