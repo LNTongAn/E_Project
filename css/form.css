@@ -31,12 +31,12 @@ section .noi-dung .form {
     width: 50%;
 }
 section .noi-dung .form h2 {
-    color: #607d8b;
+    color: #090c0d;
     font-weight: 500;
     font-size: 1.5em;
     text-transform: uppercase;
     margin-bottom: 20px;
-    border-bottom: 4px solid #e74e32;
+    border-bottom: 4px solid #0d0a0a;
     display: inline-block;
     letter-spacing: 1px;
 }
@@ -47,22 +47,22 @@ section .noi-dung .form .input-form span {
     font-size: 16px;
     margin-bottom: 5px;
     display: inline-block;
-    color: #607db8;
+    color: #090c0d;
     letter-spacing: 1px;
 }
 section .noi-dung .form .input-form input {
     width: 100%;
     padding: 10px 20px;
     outline: none;
-    border: 1px solid #607d8b;
+    border: 1px solid #090c0d;
     font-size: 16px;
     letter-spacing: 1px;
-    color: #607d8b;
+    color: #090c0d;
     background: transparent;
     border-radius: 30px;
 }
 section .noi-dung .form .input-form input[type="submit"] {
-    background: #ff4545;
+    background: #332323;
     color: #fff;
     outline: none;
     border: none;
@@ -72,21 +72,21 @@ section .noi-dung .form .input-form input[type="submit"] {
         0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
 }
 section .noi-dung .form .input-form input[type="submit"]:hover {
-    background: #f53636;
+    background: #090c0d;
 }
 section .noi-dung .form .nho-dang-nhap {
     margin-bottom: 10px;
-    color: #607d8b;
+    color: #07090a;
     font-size: 14px;
 }
 section .noi-dung .form .input-form p {
-    color: #607d8b;
+    color: #090c0d;
 }
 section .noi-dung .form .input-form p a {
     color: #ff6145;
 }
 section .noi-dung .form h3 {
-    color: #607d8b;
+    color: #090c0d;
     text-align: center;
     margin: 80px 0 10px;
     font-weight: 500;
