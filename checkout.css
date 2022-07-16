@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: 180px;
+}
+
+.begin-form {
+  text-align: center;
+  justify-content: center;
+  margin-left: 180px;
+}
+
+.payments {
+  margin-top: 10px;
+  margin-left: 400px;
+}
+
+.options {
+  margin-left: 400px;
+}
+
+.btn-order {
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
